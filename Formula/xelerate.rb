@@ -5,27 +5,27 @@
 class Xelerate < Formula
   desc "Connect a machine to a xelerate platform: run AI coding agents on delegated tasks"
   homepage "https://xelerate-cloud.com"
-  version "0.22.1"
+  version "0.23.1"
 
   on_macos do
     on_arm do
-      url "https://cdn.xelerate-cloud.com/daemon/0.22.1/xelerate-v0.22.1-aarch64-apple-darwin.tar.gz"
-      sha256 "467ab9e28f385378c2e670e43da3524f1b6d4ad8bb8cb1defd2929c2fb25a77b"
+      url "https://cdn.xelerate-cloud.com/daemon/0.23.1/xelerate-v0.23.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ed6f32960a7facd8b3b8182224ac4d7d4ec63cb2a71f98e5476070df6fbac169"
     end
     on_intel do
-      url "https://cdn.xelerate-cloud.com/daemon/0.22.1/xelerate-v0.22.1-x86_64-apple-darwin.tar.gz"
-      sha256 "a15a2bafde8dc395df71f372795ad3d26734bcd13a0fc39dc7fe7ab3e28ddbeb"
+      url "https://cdn.xelerate-cloud.com/daemon/0.23.1/xelerate-v0.23.1-x86_64-apple-darwin.tar.gz"
+      sha256 "f2d02175cd73323e071f1c1f6e6b9fbac002647dd5ff3d49a15a89a3f3dc9237"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://cdn.xelerate-cloud.com/daemon/0.22.1/xelerate-v0.22.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d865eca5fbe2f03f0c251135110eb21f2a0f3f7aa16aa4f88c333004b0d3afc6"
+      url "https://cdn.xelerate-cloud.com/daemon/0.23.1/xelerate-v0.23.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6796d45a5eb43b4ecf0cf442739f5494fdc346ba49a9b87f5657985922914eef"
     end
     on_intel do
-      url "https://cdn.xelerate-cloud.com/daemon/0.22.1/xelerate-v0.22.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "13e57b3058c061c214d330effc7df484feca743a0ee3b01f9673999909cb9543"
+      url "https://cdn.xelerate-cloud.com/daemon/0.23.1/xelerate-v0.23.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4839f3545a18cfa57b50621a5426439648df926d5d6f090b1a701e537508ded2"
     end
   end
 
